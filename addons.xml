@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addons>
 <addon id="plugin.program.kodiskinewVIP" name="kodsikinewVIP" version="0.0.9" provider-name="kodiskinewVIP">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -31,5 +32,5 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addons>
+</addon>
 </addons>
