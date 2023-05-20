@@ -16,7 +16,7 @@
     
     <extension point="xbmc.addon.metadata">
         <summary lang="en">kodiskinewVIP</summary>
-        <description lang="en">הקתנת ויזארד 20</description>
+        <description lang="en">הקתנת ויזארד 20 19</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source></source>
