@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addons>
-<addon id="plugin.program.kodiskineVIP" name="[COLORblue]kodiskineVIP[/COLOR]" version="1.1" provider-name="kodiskineVIP">
+<addon id="plugin.program.kodiskinewVIP" name="kodsikinewVIP" version="0.0.9" provider-name="kodiskinewVIP">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.requests" />
-        <import addon="script.module.six" />
+        <import addon="script.module.requests" optional="true" />
+        <import addon="script.module.six" optional="true" />
         <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
-        <import addon="script.speedtester" optional="true" version="1.1.2" />
     </requires>
     
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -16,15 +14,20 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR blue]kodiskineVIP wizard[/COLOR] for Kodi</summary>
-        <description lang="en">[COLOR blue]kodiskineVIP Wizard[/COLOR] VIP עדכוני וויזארד מצוות קודי סקין חדש</description>
+        <summary lang="en">kodiskinewVIP</summary>
+        <description lang="en">הקתנת ויזארד 20</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source></source>
-        <news></news>
+        <news>
+2.0.0
+ - Kodi 19 ready
+ -kodi 20 ready
+ - Initial Commit
+        </news>
         <assets>
             <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
