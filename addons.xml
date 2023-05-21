@@ -3,12 +3,12 @@
 <addon id="repository.kodiskinewVIP" name="[COLOR blue]kodiskinewVIP Repository[/COLOR]" version="5.8" provider-name="KodiskinewVIP">
 	<extension point="xbmc.addon.repository" name="kodiskinewVIP">
 		<dir>
-			<info compressed="false">https://kodiskinewvip.github.io/repo/addons.xml</info>
+			<info compressed="false">https://raw.githubusercontent.com/kodiskinewVIP/repo/main/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/kodiskinewVIP/repo/main/addons.xml.md5</checksum>
-			<datadir zip="true">https://kodiskinewvip.github.io/repo/zips</datadir>
+			<datadir zip="true">https://raw.githubusercontent.com/kodiskinewVIP/repo/main/zip</datadir>
 		</dir>
 	</extension>
-    <extension point="xbmc.addon.metadata">
+	<extension point="xbmc.addon.metadata">
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>icon.png</fanart>
@@ -16,6 +16,40 @@
 		<summary>kodiskinewVIP repo</summary>
 		<description>kodiskinewVIP repo</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.program.kodiskinewVIP" name="kodsikinewVIP" version="0.0.9" provider-name="kodiskinewVIP">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" optional="true" />
+        <import addon="script.module.six" optional="true" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
     </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">kodiskinewVIP</summary>
+        <description lang="en">הקתנת ויזארד 20</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source></source>
+        <news>
+2.0.0
+ - Kodi 19 ready
+ -kodi 20 ready
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
 	
 </addons>
