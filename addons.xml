@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.kodiskinewVIP" name="kodsikinewVIP" version="0.0.9" provider-name="kodiskinewVIP">
+<addon id="plugin.program.kodiskinewVIP" name="kodsikinewVIP.V19/20" version="0.0.9" provider-name="kodiskinewVIP">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" optional="true" />
         <import addon="script.module.six" optional="true" />
-        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+		<import addon="script.kodi.android.update" optional="true" version="1.1.7" />
     </requires>
     
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -15,8 +15,8 @@
     <extension point="xbmc.service" library="startup.py" start="startup" />
     
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">kodiskinewVIP</summary>
-        <description lang="en">הקתנת ויזארד 20</description>
+        <summary lang="en">kodiskinewVIP repo new v19/20</summary>
+        <description lang="he">ריפו קודיסקיןחדש VIP גרסאות 19/20 ביחד</description>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source></source>
